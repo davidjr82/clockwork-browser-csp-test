@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta name="csp-nonce" content="{{ csp_nonce() }}">
+        <script src="https://cdn.jsdelivr.net/npm/clockwork-browser@latest/dist/toolbar.js" nonce="{{ csp_nonce() }}"></script>
+
         <title>Laravel</title>
 
         <!-- Fonts -->
